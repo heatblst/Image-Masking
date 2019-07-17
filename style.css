@@ -1,0 +1,79 @@
+body{
+	background:#F0E68C;
+	text-align:center;
+}
+.name{
+	text-align: center;
+	text-decoration:underline;
+	font-size:50px;
+
+}
+input[type="file"]{
+	color:white;
+	background:#00FF7F;
+	border-radius:10%;
+	border: 2px solid white;
+	padding:10px;
+	margin-top:4%;
+	width:40%;
+}
+
+.btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  font-weight: 700;
+  background:#AAF5C8;
+  font: italic bold 18px Georgia, serif;
+  float:left;
+  margin-left:20%;
+  margin-right:15%;
+}
+
+.hide {
+	display: none;
+}
+
+#canvas{
+  height: 282px;
+  width:282px;
+  margin-top:41%;
+  margin-left:5.2%;
+  transform: rotate(348.5deg);
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 32%, 94% 33%, 60% 63%, 36% 62.5%, 4% 33%, 0% 30%);
+}
+#img{
+    background: url(fill.jpg) no-repeat center ;
+    height: 600px;
+    width: 600px;
+    background-size:cover;
+    margin:auto;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+.result{
+	width:50%;
+	height:50%;
+	object-fit:cover;
+	margin-top:2%;
+	margin-left:25%;
+	margin-right:25%;
+}
+.cropped{
+	width:400px;
+	height:400px;
+	border: 1px solid #90EE90;
+	margin-top:2%;
+}
