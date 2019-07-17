@@ -64,7 +64,7 @@ input[type="file"]{
     margin-top:5%;
 }
 .result{
-	width:50%;
+	width:600px;
 	height:600px;
 	object-fit:cover;
 	margin-top:2%;
