@@ -64,13 +64,15 @@ input[type="file"]{
     margin-top:5%;
 }
 .result{
-	object-fit:cover;
+  height:500px;
+  width:500px;
 	margin-top:2%;
-	margin-left:25%;
-	margin-right:25%;
+	margin-left:30%;
+	margin-right:30%;
+  object-fit:cover;
 }
 .cropped{
 	border: 1px solid #90EE90;
 	margin-top:2%;
-        object-fit:cover;
+  object-fit:cover;
 }
