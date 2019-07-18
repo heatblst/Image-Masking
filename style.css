@@ -51,6 +51,7 @@ input[type="file"]{
   margin-top:41%;
   margin-left:5.2%;
   transform: rotate(348.5deg);
+  -webkit-filter: grayscale(35%) ; 
   object-fit: cover;
   clip-path: polygon(0 0, 100% 0, 100% 32%, 94% 33%, 60% 63%, 36% 62.5%, 4% 33%, 0% 30%);
 }
